@@ -1,6 +1,6 @@
 # README do curso de fundamentos do JavaScript (Gustavo Guanabara)
 
-# Aula 1: O que faz o JavaScript
+# Aula 1: O que o JavaScript é capaz de fazer
 
 * Client x Server
 * Website é composto por basicamente 3 tecnologias:
@@ -15,7 +15,11 @@
 
 
 
-# Aula 2: Dando os primeiros passos
+# Aula 2: como chegamos até aqui
+
+Um breve histórico do JavaScript — e da própria web em si.
+
+# Aula 3: Dando os primeiros passos
 
 ## Como aprender?
 
@@ -82,4 +86,8 @@ Não. O ECMAScript/JavaScript é o ponto de partida de todo mundo que está quer
   * Um browser (Google Chrome, Firefox, Brave, Opera, Vivaldi etc.)
   * Um editor de código (Microsoft Visual Studio Code)
   * Node.js
+
+# Aula 4: Criando seu primeiro script
+
+
 
