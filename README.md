@@ -1,5 +1,7 @@
 # README do curso de fundamentos do JavaScript (Gustavo Guanabara)
 
+[TOC]
+
 # Aula 1: O que o JavaScript é capaz de fazer
 
 * Client x Server
