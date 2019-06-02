@@ -146,7 +146,8 @@ As variáveis se chamam identificadores, e eles possuem regras de formação.
 ### Node.js
 
 #### Shell do Node.js no terminal:
-![Shell do Node no Terminal](/Users/guiemi/Desktop/Screen Shot 2019-06-01 at 20.59.25.png)
+![Shell do Node no Terminal](/Users/guiemi/github/guiemi-learning-center/javascript_guanabara/media/node_terminal.png)
 
 #### Shell do Node.js no terminal do VSCode:
-![Shell do Node no VSCode](/Users/guiemi/Desktop/Screen Shot 2019-06-01 at 21.04.27.png)
+![Shell do Node no VSCode](/Users/guiemi/github/guiemi-learning-center/javascript_guanabara/media/node_vscode.png)
+
