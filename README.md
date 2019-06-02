@@ -17,7 +17,7 @@
 
 # Aula 2: como chegamos até aqui
 
-Um breve histórico do JavaScript — e da própria web em si.
+Uma (interessantíssima) aula com um breve histórico do JavaScript — e da própria web em si.
 
 # Aula 3: Dando os primeiros passos
 
@@ -44,11 +44,11 @@ Um breve histórico do JavaScript — e da própria web em si.
 
 Não existe idade mínima e máxima para aprender. Cada um aprende. no seu ritmo. Além disso, não ouça pessoas que tentarem te convencer de que você está velho demais ou novo demais
 
-### 👩🏾‍💻Programação não é 'coisa de homem'?
+### 👩🏾‍💻 Programação não é 'coisa de homem'?
 
 * Bom, pra começar a primeira linguagem de programação foi desenvolvida por uma matemática chamada [Ada Lovelace](https://pt.wikipedia.org/wiki/Ada_Lovelace). Historicamente, os primeiros profissionais de programação foram mulheres (Fonte: [Wikipedia](https://en.wikipedia.org/wiki/Women_in_computing)). Todos podem aprender a programar, independentemente de fatores como sexo, gênero, orientação sexual ou etnia. 
 
-### 🌋"Eu preciso morar em uma cidade grande?"
+### 🏡 Eu preciso morar em uma cidade grande?
 
 Com a internet, o fator lugar deixa de ser tão relevante, pois todos em teoria têm acesso aos conteúdos "*core*", necessários ao aprendizado, disponibilizados online
 
@@ -60,13 +60,13 @@ Não. Você só precisa querer aprender a programar. Ninguém é especial só po
 
 Há hoje ótimos materiais em português para quem está começando. E não é necessário ter aptidão para matemática para aprender, basta **querer** aprender.
 
-### ♟  Aprender lógica de programação é perda de tempo?
+### ♟ Aprender lógica de programação é perda de tempo?
 
 Assim como, no filme Karate Kid, o personagem principal é colocado para aprender a pintar cerca para poder aprender Karatê, na programação, quando você aprende lógica, você aprende a moldar o seu *mindset*, o que tornará o seu processo de aprendizado mais assertivo.
 
 
 
-### 💵  Todo programador ganha muito dinheiro?
+### 💵 Todo programador ganha muito dinheiro?
 
 Programadores iniciantes não vão ganhar muito dinheiro, nem o melhor emprego. Quando você tiver experiência, o seu salário não será mais seu objetivo, ele será sua consequência.
 
@@ -78,14 +78,14 @@ A resposta é: nenhuma. Linguagens de programação cumprem propósitos específ
 
 Não. O ECMAScript/JavaScript é o ponto de partida de todo mundo que está querendo programar. Não tente partir da complexidade.
 
-**Literalmente mundo um dia começou com um "Hello, world!".**
+Literalmente **todo mundo** um dia começou com um "*Hello, world!*".
 
 ## Requerimentos de Software:
 
 * Um computador
-  * Um browser (Google Chrome, Firefox, Brave, Opera, Vivaldi etc.)
-  * Um editor de código (Microsoft Visual Studio Code)
-  * Node.js
+  * Um browser (Google Chrome, Firefox, Safari etc.)
+  * Um editor de código (Visual Studio Code, Sublime Texto, Atom etc.)
+  * Node.js (*sem etc.*)
 
 # Aula 4: Criando seu primeiro script
 
@@ -117,7 +117,7 @@ var testVar = "Isto é um código fora da área de comentários.";
 
 ## Variáveis
 
-* Um único sinal de igual (=) nunca é chamado de 'igual', mas sim de '**recebe**'.
+* Um único sinal de igual (=) nunca é chamado de 'igual', sempre de '**recebe**'.
 * Se vocie atribui `Null` a uma variável, tudo dentro dela é destruído.
 
 **Curiosidade**: No JavaScript moderno, além de utilizar a palavra **var**, também podemos usar a palavra **let** para definir variáveis.
