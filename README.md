@@ -152,3 +152,62 @@ As variáveis se chamam identificadores, e eles possuem regras de formação.
 #### Shell do Node.js no terminal do VSCode:
 
 ![Shell do Node no VSCode](https://github.com/guiemi-learning-center/curso-javascript-guanabara/blob/master/media/node_vscode.png)
+
+### Dicas na hora de nomear identificadores
+
+* **Maiúsculas** e **minúsculas** fazem diferença
+* Tente escolher **nomes coerentes** para as variáveis
+* Evite se tornar um **programador alfabeto** ou um **programador contador**
+  * O programador alfabeto é aquele que nomeia todas as variáveis como `a`, `b`, `c`, `d`, `e`, `f`, `g`, `h` ou `x`, `y`, `z`
+  * O programador contador é aquele que nomeia todas as variáveis como `n1`, `n2`, `n3`, `n4`, `n5`
+
+## Tipos primitivos
+
+O JS trata diferentemente tipos diferentes de dados. Há três deles que são especiais e conhecidos como *tipos primitivos primordiais*, — `number`, `string` e `boolean` —, pois deles são derivados outros tipos. Em JS, há uma série de outros tipos primitivos e alguns subtipos, derivados dos tipos primitivos.
+
+* Dentro de **number**, temos os subtipos:
+  * Infinity
+  * NaN (Not a Number)
+* **null**
+* **undefined**
+* O **object** também possui vários subtipos, dentre eles:
+  * Array
+* function
+
+Usando o operador `tipeof` e passando para ele qualquer tipo, você pede para a linguagem checar para você com qual tipo ela está lidando.
+
+````javascript
+> var n = 200 // atribuindo à variável n o número 200
+undefined
+> n // chamando a variável n
+200
+> typeof n // pedindo o tipo de n
+'number'
+> n = "DuckDuckGo" // atribuindo agora uma string à variável
+'DuckDuckGo'
+> typeof n // checando se o tipo foi alterado
+'string'
+> typeof 6
+'number'
+> typeof 6.5
+'number'
+> typeof "6.5"
+'string'
+> typeof []
+'object'
+> typeof {}
+'object'
+> typeof function(){}
+'function'
+> typeof undefined
+'undefined'
+> typeof NaN
+'number'
+> typeof Infinity
+'number'
+> typeof null
+'object'
+
+````
+
+Um detalhe interessante é que o JS considera `null` um objeto.
