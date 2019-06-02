@@ -1,18 +1,46 @@
 # README do curso de fundamentos do JavaScript (Gustavo Guanabara)
 
-[TOC]
+- [README do curso de fundamentos do JavaScript (Gustavo Guanabara)](#readme-do-curso-de-fundamentos-do-javascript--gustavo-guanabara-)
+- [Aula 1: O que o JavaScript é capaz de fazer](#aula-1--o-que-o-javascript---capaz-de-fazer)
+- [Aula 2: como chegamos até aqui](#aula-2--como-chegamos-at--aqui)
+- [Aula 3: Dando os primeiros passos](#aula-3--dando-os-primeiros-passos)
+  * [Como aprender?](#como-aprender-)
+  * [Dúvidas comuns de quem está começando a programar](#d-vidas-comuns-de-quem-est--come-ando-a-programar)
+    + [👨🏿‍🦳 Será que eu sou velho demais ou novo demais para começar a aprender a programar?](#--------ser--que-eu-sou-velho-demais-ou-novo-demais-para-come-ar-a-aprender-a-programar-)
+    + [👩🏾‍💻 Programação não é 'coisa de homem'?](#--------programa--o-n-o----coisa-de-homem--)
+    + [🏡 Eu preciso morar em uma cidade grande?](#---eu-preciso-morar-em-uma-cidade-grande-)
+    + [🤓 Eu preciso ser 'nerd' para gostar de programar?](#---eu-preciso-ser--nerd--para-gostar-de-programar-)
+    + [🇺🇸 É obrigatório ser bom em matemática e/ou ser bom em inglês para aprender a programar?](#-------obrigat-rio-ser-bom-em-matem-tica-e-ou-ser-bom-em-ingl-s-para-aprender-a-programar-)
+    + [♟ Aprender lógica de programação é perda de tempo?](#--aprender-l-gica-de-programa--o---perda-de-tempo-)
+    + [💵 Todo programador ganha muito dinheiro?](#---todo-programador-ganha-muito-dinheiro-)
+    + [🏆 Qual a melhor linguagem de programação que existe?](#---qual-a-melhor-linguagem-de-programa--o-que-existe-)
+    + [📒 É mais fácil aprender JS através de frameworks?](#-----mais-f-cil-aprender-js-atrav-s-de-frameworks-)
+  * [Requerimentos de Software:](#requerimentos-de-software-)
+- [Aula 4: Criando seu primeiro script](#aula-4--criando-seu-primeiro-script)
+- [Aula 5: Variáveis e tipos primitivos](#aula-5--vari-veis-e-tipos-primitivos)
+  * [Adicionando comentários em JS:](#adicionando-coment-rios-em-js-)
+  * [Variáveis](#vari-veis)
+    + [Identificadores](#identificadores)
+    + [Node.js](#nodejs)
+      - [Shell do Node.js no terminal:](#shell-do-nodejs-no-terminal-)
+      - [Shell do Node.js no terminal do VSCode:](#shell-do-nodejs-no-terminal-do-vscode-)
+    + [Dicas na hora de nomear identificadores](#dicas-na-hora-de-nomear-identificadores)
+  * [Tipos primitivos](#tipos-primitivos)
+- [Aula 6](#aula-6)
 
-# Aula 1: O que o JavaScript é capaz de fazer
 
-* Client x Server
-* Website é composto por basicamente 3 tecnologias:
+  # Aula 1: O que o JavaScript é capaz de fazer
+
+- Client x Server
+- Website é composto por basicamente 3 tecnologias:
   * Jornalista (**HTML**): escreve texto, usa imagens, cataloga vídeos e imagens etc.
   * Designer (**CSS**): pega as mídias e torna-se bonitas, organizando-as em formatos diferentes
   * Programador (**JavaScript**): trata da engenharia da entrega do jornal
-* O HTML organiza os textos, o conteúdo
-* O CSS pega o texto e o organiza para torná-lo mais agradável
-* O JS faz as interações, como uma legenda em uma imagem, amplia uma imagem ao passar o mouse em cima dela etc. Ele inclusive modifica elementos escritos em HTML e CSS
-* Quem utiliza o JS?
+- O HTML organiza os textos, o conteúdo
+- O CSS pega o texto e o organiza para torná-lo mais agradável
+- O JS faz as interações, como uma legenda em uma imagem, amplia uma imagem ao passar o mouse em cima dela etc. Ele inclusive modifica elementos escritos em HTML e CSS
+- Quem utiliza o JS?
+
   * Google, YouTube, LinkedIn, Netflix etc.
 
 
