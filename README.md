@@ -17,7 +17,7 @@
 
 # Aula 2: como chegamos até aqui
 
-Uma (interessantíssima) aula com um breve histórico do JavaScript — e da própria web em si.
+Uma (interessantíssima) aula com um breve histórico do JavaScript (doravante **JS**) — e da própria web em si.
 
 # Aula 3: Dando os primeiros passos
 
@@ -42,19 +42,19 @@ Uma (interessantíssima) aula com um breve histórico do JavaScript — e da pr�
 
 ### 👨🏿‍🦳 Será que eu sou velho demais ou novo demais para começar a aprender a programar?
 
-Não existe idade mínima e máxima para aprender. Cada um aprende. no seu ritmo. Além disso, não ouça pessoas que tentarem te convencer de que você está velho demais ou novo demais
+Não existe idade mínima e máxima para aprender. Cada um aprende no seu ritmo. Além disso, não ouça pessoas que tentarem te convencer de que você está velho demais ou novo demais.
 
 ### 👩🏾‍💻 Programação não é 'coisa de homem'?
 
-* Bom, pra começar a primeira linguagem de programação foi desenvolvida por uma matemática chamada [Ada Lovelace](https://pt.wikipedia.org/wiki/Ada_Lovelace). Historicamente, os primeiros profissionais de programação foram mulheres (Fonte: [Wikipedia](https://en.wikipedia.org/wiki/Women_in_computing)). Todos podem aprender a programar, independentemente de fatores como sexo, gênero, orientação sexual ou etnia. 
+* Bom, pra começar a primeira linguagem de programação foi desenvolvida por uma matemática chamada [Ada Lovelace](https://pt.wikipedia.org/wiki/Ada_Lovelace). Historicamente, os primeiros profissionais da computação foram, na verdade, mulheres (Fonte: [Wikipedia](https://en.wikipedia.org/wiki/Women_in_computing)). Todos podem aprender a programar, independentemente de fatores como sexo, gênero, orientação sexual ou etnia. 
 
 ### 🏡 Eu preciso morar em uma cidade grande?
 
-Com a internet, o fator lugar deixa de ser tão relevante, pois todos em teoria têm acesso aos conteúdos "*core*", necessários ao aprendizado, disponibilizados online
+Com a internet, o fator lugar deixa de ser tão relevante, pois todos em teoria têm acesso aos conteúdos "*core*", necessários ao aprendizado, disponibilizados online.
 
 ### 🤓 Eu preciso ser 'nerd' para gostar de programar?
 
-Não. Você só precisa querer aprender a programar. Ninguém é especial só porque sabe programar.
+Não. Você só precisa querer aprender a programar. Ninguém é *especial* só porque sabe programar.
 
 ### 🇺🇸 É obrigatório ser bom em matemática e/ou ser bom em inglês para aprender a programar?
 
@@ -63,8 +63,6 @@ Há hoje ótimos materiais em português para quem está começando. E não é n
 ### ♟ Aprender lógica de programação é perda de tempo?
 
 Assim como, no filme Karate Kid, o personagem principal é colocado para aprender a pintar cerca para poder aprender Karatê, na programação, quando você aprende lógica, você aprende a moldar o seu *mindset*, o que tornará o seu processo de aprendizado mais assertivo.
-
-
 
 ### 💵 Todo programador ganha muito dinheiro?
 
@@ -76,9 +74,9 @@ A resposta é: nenhuma. Linguagens de programação cumprem propósitos específ
 
 ### 📒 É mais fácil aprender JS através de frameworks?
 
-Não. O ECMAScript/JavaScript é o ponto de partida de todo mundo que está querendo programar. Não tente partir da complexidade.
+Não. O ECMAScript/JavaScript é o ponto de partida de todo mundo que está querendo programar. Não tente começar a partir da complexidade.
 
-Literalmente **todo mundo** um dia começou com um "*Hello, world!*".
+Literalmente **todo mundo** que você conhece um dia começou com um "*Hello, world!*".
 
 ## Requerimentos de Software:
 
@@ -90,8 +88,6 @@ Literalmente **todo mundo** um dia começou com um "*Hello, world!*".
 # Aula 4: Criando seu primeiro script
 
 Aprendemos onde a tag <style></style> fica no HTML e onde o <script></script> fica. Aprendemos também a usar o `window.alert()`, o `windw.confirm()` e o `window.prompt()`.
-
-
 
 # Aula 5: Variáveis e tipos primitivos
 
@@ -172,9 +168,9 @@ O JS trata diferentemente tipos diferentes de dados. Há três deles que são es
 * **undefined**
 * O **object** também possui vários subtipos, dentre eles:
   * Array
-* function
+* **function**
 
-Usando o operador `tipeof` e passando para ele qualquer tipo, você pede para a linguagem checar para você com qual tipo ela está lidando.
+Usando o operador `tipeof` e passando para ele qualquer tipo, você pede para a linguagem checar para você com qual tipo ela está lidando:
 
 ````javascript
 > var n = 200 // atribuindo à variável n o número 200
@@ -211,3 +207,6 @@ undefined
 ````
 
 Um detalhe interessante é que o JS considera `null` um objeto.
+
+# Aula 6
+
