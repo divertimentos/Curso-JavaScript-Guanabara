@@ -89,5 +89,64 @@ Não. O ECMAScript/JavaScript é o ponto de partida de todo mundo que está quer
 
 # Aula 4: Criando seu primeiro script
 
+Aprendemos onde a tag <style></style> fica no HTML e onde o <script></script> fica. Aprendemos também a usar o `window.alert()`, o `windw.confirm()` e o `window.prompt()`.
 
 
+
+# Aula 5: Variáveis e tipos primitivos
+
+## Adicionando comentários em JS:
+
+Para comentar uma linha, utilize barras duplas:
+
+````javascript
+var testVar = "Variável de teste." // isto é um comentário em JS.
+````
+
+Para comentar duas ou mais linhas, utilize **barra + asterisco** para abrir e **asterisco + barra** para fechar:
+
+````javascript
+/* Isto é um comentário em uma linha.
+
+JAVASCRIPTO EH TOPSTER <3
+
+E isto é a linha final de um comentário. */
+
+var testVar = "Isto é um código fora da área de comentários."; 
+````
+
+## Variáveis
+
+* Um único sinal de igual (=) nunca é chamado de 'igual', mas sim de '**recebe**'.
+* Se vocie atribui `Null` a uma variável, tudo dentro dela é destruído.
+
+**Curiosidade**: No JavaScript moderno, além de utilizar a palavra **var**, também podemos usar a palavra **let** para definir variáveis.
+
+````javascript
+var n1 = 5
+var n2 = 8.5
+var n3 = 15
+
+var s1 = "JavaScript"
+var s2 = `Curso em vídeo`
+var s3 = 'Guanabara'
+````
+
+### Identificadores
+
+As variáveis se chamam identificadores, e eles possuem regras de formação.
+
+* Variáveis podem começar com **letra**, **$** (cifrão) ou **_** (*underscore*).
+* Não podem começar com **números**
+* É possível usar **letras** ou **números**
+* É possível utilizar **acentos** e **símbolos**
+* Não podem conter **espaços**
+* Não podem ser **palavras reservadas** (uma variável chamada `var`, por exemplo.)
+
+### Node.js
+
+#### Shell do Node.js no terminal:
+![Shell do Node no Terminal](/Users/guiemi/Desktop/Screen Shot 2019-06-01 at 20.59.25.png)
+
+#### Shell do Node.js no terminal do VSCode:
+![Shell do Node no VSCode](/Users/guiemi/Desktop/Screen Shot 2019-06-01 at 21.04.27.png)
