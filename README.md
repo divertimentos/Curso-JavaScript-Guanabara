@@ -1,5 +1,7 @@
 # README do curso de fundamentos do JavaScript (Gustavo Guanabara)
 
+# Sumário
+
 - [README do curso de fundamentos do JavaScript (Gustavo Guanabara)](#readme-do-curso-de-fundamentos-do-javascript--gustavo-guanabara-)
 - [Aula 1: O que o JavaScript é capaz de fazer](#aula-1--o-que-o-javascript---capaz-de-fazer)
 - [Aula 2: como chegamos até aqui](#aula-2--como-chegamos-at--aqui)
@@ -15,7 +17,7 @@
     + [💵 Todo programador ganha muito dinheiro?](#---todo-programador-ganha-muito-dinheiro-)
     + [🏆 Qual a melhor linguagem de programação que existe?](#---qual-a-melhor-linguagem-de-programa--o-que-existe-)
     + [📒 É mais fácil aprender JS através de frameworks?](#-----mais-f-cil-aprender-js-atrav-s-de-frameworks-)
-  * [Requerimentos de Software:](#requerimentos-de-software-)
+  * [Requerimentos de Software](#requerimentos-de-software-)
 - [Aula 4: Criando seu primeiro script](#aula-4--criando-seu-primeiro-script)
 - [Aula 5: Variáveis e tipos primitivos](#aula-5--vari-veis-e-tipos-primitivos)
   * [Adicionando comentários em JS:](#adicionando-coment-rios-em-js-)
@@ -108,7 +110,7 @@ Não. O ECMAScript/JavaScript é o ponto de partida de todo mundo que está quer
 
 Literalmente **todo mundo** que você conhece um dia começou com um "*Hello, world!*".
 
-## Requerimentos de Software:
+## Requerimentos de Software
 
 * Um computador
   * Um browser (Google Chrome, Firefox, Safari etc.)
@@ -117,7 +119,7 @@ Literalmente **todo mundo** que você conhece um dia começou com um "*Hello, wo
 
 # Aula 4: Criando seu primeiro script
 
-Aprendemos onde a tag <style></style> fica no HTML e onde o <script></script> fica. Aprendemos também a usar o `window.alert()`, o `windw.confirm()` e o `window.prompt()`.
+Aprendemos onde a tag <style></style> fica no HTML e onde o <script></script> fica. Aprendemos também a usar o `window.alert()`, o `window.confirm()` e o `window.prompt()`.
 
 # Aula 5: Variáveis e tipos primitivos
 
@@ -239,4 +241,6 @@ undefined
 Um detalhe interessante é que o JS considera `null` um objeto.
 
 # Aula 6
+
+
 
