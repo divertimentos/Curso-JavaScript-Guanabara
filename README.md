@@ -1,35 +1,5 @@
 # README do curso de fundamentos do JavaScript (Gustavo Guanabara)
 
-# Sumário
-
-- [README do curso de fundamentos do JavaScript (Gustavo Guanabara)](#readme-do-curso-de-fundamentos-do-javascript--gustavo-guanabara-)
-- [Aula 1: O que o JavaScript é capaz de fazer](#aula-1--o-que-o-javascript---capaz-de-fazer)
-- [Aula 2: como chegamos até aqui](#aula-2--como-chegamos-at--aqui)
-- [Aula 3: Dando os primeiros passos](#aula-3--dando-os-primeiros-passos)
-  * [Como aprender?](#como-aprender-)
-  * [Dúvidas comuns de quem está começando a programar](#d-vidas-comuns-de-quem-est--come-ando-a-programar)
-    + [👨🏿‍🦳 Será que eu sou velho demais ou novo demais para começar a aprender a programar?](#--------ser--que-eu-sou-velho-demais-ou-novo-demais-para-come-ar-a-aprender-a-programar-)
-    + [👩🏾‍💻 Programação não é 'coisa de homem'?](#--------programa--o-n-o----coisa-de-homem--)
-    + [🏡 Eu preciso morar em uma cidade grande?](#---eu-preciso-morar-em-uma-cidade-grande-)
-    + [🤓 Eu preciso ser 'nerd' para gostar de programar?](#---eu-preciso-ser--nerd--para-gostar-de-programar-)
-    + [🇺🇸 É obrigatório ser bom em matemática e/ou ser bom em inglês para aprender a programar?](#-------obrigat-rio-ser-bom-em-matem-tica-e-ou-ser-bom-em-ingl-s-para-aprender-a-programar-)
-    + [♟ Aprender lógica de programação é perda de tempo?](#--aprender-l-gica-de-programa--o---perda-de-tempo-)
-    + [💵 Todo programador ganha muito dinheiro?](#---todo-programador-ganha-muito-dinheiro-)
-    + [🏆 Qual a melhor linguagem de programação que existe?](#---qual-a-melhor-linguagem-de-programa--o-que-existe-)
-    + [📒 É mais fácil aprender JS através de frameworks?](#-----mais-f-cil-aprender-js-atrav-s-de-frameworks-)
-  * [Requerimentos de Software](#requerimentos-de-software-)
-- [Aula 4: Criando seu primeiro script](#aula-4--criando-seu-primeiro-script)
-- [Aula 5: Variáveis e tipos primitivos](#aula-5--vari-veis-e-tipos-primitivos)
-  * [Adicionando comentários em JS:](#adicionando-coment-rios-em-js-)
-  * [Variáveis](#vari-veis)
-    + [Identificadores](#identificadores)
-    + [Node.js](#nodejs)
-      - [Shell do Node.js no terminal:](#shell-do-nodejs-no-terminal-)
-      - [Shell do Node.js no terminal do VSCode:](#shell-do-nodejs-no-terminal-do-vscode-)
-    + [Dicas na hora de nomear identificadores](#dicas-na-hora-de-nomear-identificadores)
-  * [Tipos primitivos](#tipos-primitivos)
-- [Aula 6](#aula-6)
-
 
   # Aula 1: O que o JavaScript é capaz de fazer
 
@@ -240,7 +210,57 @@ undefined
 
 Um detalhe interessante é que o JS considera `null` um objeto.
 
-# Aula 6
+# Aula 6: Tratamento de dados
+
+* Esta aula fala principalmente sobre os tipos **number** e **string**.
+
+* Para printar no `alert()` uma variável juntamente com uma string, basta concatená-las usando o operador `+`:
+
+  ```javascript
+  var nome = window.prompt("Qual é o seu nome?")
+  window.alert("É um grande prazer te conhecer, " + nome)
+  ```
+```
+  
+
+* Ou, como eu gosto de fazer, você pode usar um recurso chamado *string interpolation* (Interpolação de string):
+
+  ```javascript
+  window.alert(`É um grande prazer te conhecer, ${nome}.`)
+```
+
+## Conversão de string para Number
+
+Como o operador `+` serve tanto para soma quanto para concatenação, você precisa dizer ao JS qual tipo de ação você está requerindo desse operador, visto que, por exemplo, o `window.prompt` automaticamente converte o que recebe para **string**. Há várias maneiras, no JS, de se fazer a conversão de **string** para **number**:
+
+* `Number.parseInt(n)`: converte um número para um número **inteiro**
+* `Number.parseFloat(n)`: converte um número para um **float**/**real**
+* `Number()`: modo mais moderno de conversão, tanto para **inteiro** quanto para **float**
+
+## Conversão para String
+
+* `String(n)`
+* `n.toString()`
 
 
+
+## Outros métodos de String
+
+* `s.length`
+* `s.toUpperCase()`
+* `s.toLowerCase()`
+
+## Outros métodos de Number
+
+* `n1.toFixed(n)`
+
+  * Substituir ponto por vírgula em números decimais: `n1.toFixed(2).replace('.', ',')`
+
+* `n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})`:
+
+  * --> R$ 1,545.50
+  
+  
+
+# Aula 7:
 
