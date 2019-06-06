@@ -218,16 +218,14 @@ Um detalhe interessante é que o JS considera `null` um objeto.
 
   ```javascript
   var nome = window.prompt("Qual é o seu nome?")
-  window.alert("É um grande prazer te conhecer, " + nome)
   ```
-```
-  
 
-* Ou, como eu gosto de fazer, você pode usar um recurso chamado *string interpolation* (Interpolação de string):
+Ou, como eu gosto de fazer, você pode usar um recurso chamado *string interpolation* (Interpolação de string):
 
   ```javascript
-  window.alert(`É um grande prazer te conhecer, ${nome}.`)
-```
+window.alert("É um grande prazer te conhecer, " + nome)
+window.alert(`É um grande prazer te conhecer, ${nome}.`)
+  ```
 
 ## Conversão de string para Number
 
@@ -242,8 +240,6 @@ Como o operador `+` serve tanto para soma quanto para concatenação, você prec
 * `String(n)`
 * `n.toString()`
 
-
-
 ## Outros métodos de String
 
 * `s.length`
@@ -253,13 +249,10 @@ Como o operador `+` serve tanto para soma quanto para concatenação, você prec
 ## Outros métodos de Number
 
 * `n1.toFixed(n)`
-
-  * Substituir ponto por vírgula em números decimais: `n1.toFixed(2).replace('.', ',')`
-
-* `n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})`:
-
-  * --> R$ 1,545.50
+* Substituir ponto por vírgula em números decimais: `n1.toFixed(2).replace('.', ',')`
   
+* `n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})`:
+* --> R$ 1,545.50
   
 
 # Aula 7:
