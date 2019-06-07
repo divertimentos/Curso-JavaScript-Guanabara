@@ -437,4 +437,8 @@ salario > 1500 && sexo != "M" // o salário é acima de R$ 1.500,00 e não é ho
 
 **Importante**: se numa mesma expressão houver vários operadores lógicos, primeiro é computada a **negação**, depois a **conjunção** e depois a **disjunção**.
 
+## Precedência de operadores
+
+![precedencia_de_operadores](https://github.com/guiemi-learning-center/curso-javascript-guanabara/blob/master/media/precedencia_operadores.JPG)
+
 ## Operador Ternário
