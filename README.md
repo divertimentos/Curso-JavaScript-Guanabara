@@ -42,7 +42,7 @@ Uma (interessantíssima) aula com um breve histórico do JavaScript (doravante *
 
 ## Dúvidas comuns de quem está começando a programar
 
-### 👨🏿‍🦳 Será que eu sou velho demais ou novo demais para começar a aprender a programar?
+### 👨🏿‍Será que eu sou velho demais ou novo demais para começar a aprender a programar?
 
 Não existe idade mínima e máxima para aprender. Cada um aprende no seu ritmo. Além disso, não ouça pessoas que tentarem te convencer de que você está velho demais ou novo demais.
 
@@ -257,7 +257,7 @@ Os operadores que veremos no curso serão os operadores: **aritméticos**, de **
 
 * Nesta aula, focaremos nos operadores **aritméticos** e nos operadores de **atribuição**.
 
-## Aritméticos:
+## Operadores Aritméticos:
 
 * `+`: soma/concatenação
 * `-`: subtração
@@ -266,10 +266,13 @@ Os operadores que veremos no curso serão os operadores: **aritméticos**, de **
 * `%`: módulo/resto
 * `**`: potenciação
 
-* de Atribuição:
-  * `var a = (5 + 3)`
-* **Lembrete**: um cuidado com o  qual sempre devemos tomar é com a precedência dos operadores ([PEMDAS](https://pt.khanacademy.org/math/pre-algebra/pre-algebra-arith-prop/pre-algebra-order-of-operations/v/more-complicated-order-of-operations-example)):
-  * Ordem de precedência na programação: Parênteses **>** Potência **>** Multiplicação, Divisão, Módulo **>** Adição, Subtração
+## Operadores de atribuição
+
+* `var a = (5 + 3)`
+
+#### LEMBRETE: um cuidado com o  qual sempre devemos tomar é com a precedência dos operadores ([PEMDAS](https://pt.khanacademy.org/math/pre-algebra/pre-algebra-arith-prop/pre-algebra-order-of-operations/v/more-complicated-order-of-operations-example)):
+
+* Ordem de precedência na programação: Parênteses **>** Potência **>** Multiplicação, Divisão, Módulo **>** Adição, Subtração
 
 ## Há também as **autoatribuições**:
 
@@ -293,4 +296,19 @@ n *= 4
 n /= 2
 n %= 5
 ```
+
+### Simplificando ainda mais as autoatribuições em JavaScript usando incrementos e decrementos
+
+```javascript
+var n = 3
+n++
+n--
+
+// ou
+
+++n
+--n
+```
+
+# Aula 8: Operadores (Parte 2/2)
 
