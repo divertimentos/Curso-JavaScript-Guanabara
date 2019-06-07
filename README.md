@@ -442,3 +442,27 @@ salario > 1500 && sexo != "M" // o salário é acima de R$ 1.500,00 e não é ho
 ![precedencia_de_operadores](https://github.com/guiemi-learning-center/curso-javascript-guanabara/blob/master/media/precedencia_operadores.JPG)
 
 ## Operador Ternário
+
+Ele é composto por dois símbolos, o `?` e o `:`, que aparecem na mesma operação. O nome dele é **ternário** porque ele é composto por três argumentos:
+
+```javascript
+media >= 7.0? "Aprovado" : "Reprovado"
+```
+
+```javascript
+var res = x % 2 == 0? 5: 9
+res
+5
+
+// Eu achei isso MARAVILHOSO
+```
+
+```javascript
+var idade = 19
+var r = idade >= 18? "Maior": "Menor"
+r
+'Maior'
+
+// ADOREI o operador ternário do JS!
+```
+
