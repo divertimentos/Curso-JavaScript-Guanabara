@@ -312,3 +312,129 @@ n--
 
 # Aula 8: Operadores (Parte 2/2)
 
+Nesta aula, falaremos sobre **operadores relacionais**, **operadores lógicos** e sobre o **operador ternário**.
+
+## Operadores Relacionais
+
+* Os operadores relacionais são:
+  *  `>` (maior)
+  *  `<` (menor)
+  *  `>=` (maior ou igual)
+  *  `<=` (menor ou igual) 
+  * `==`(igual) 
+  * `!=` (diferente)
+
+Note que: o resultado de expressões que utilizam operadores relacionais será sempre booleano (*true* ou *false*):
+
+```javascript
+5 > 2
+true
+
+7 < 4
+false
+
+8 >= 8
+true
+
+9 <= 7
+false
+
+5 == 5
+true
+
+4 != 4
+false
+
+```
+
+### Operadores de identidade
+
+Há também os operadores de identidade:
+
+```javascript
+5 == 5 // retorna true
+5 == '5' // returna true
+```
+
+O operador de igualdade do JavaScript **não testa tipos**, então **'5'** continua sendo **5**. 
+
+O operador de identidade é o "**===**", também chamado de **operador de igualdade restrita**:
+
+```javascript
+5 === '5' // retorna false, pois 5 é do tipo number e '5' é do tipo string.
+```
+
+## Operadores Lógicos
+
+O JS possui 3 operadores lógicos:
+
+* A exclamação (`!`) significa **negação**;
+* Os dois &&s comerciais (`&&`) significam **conjunção** ou **e**;
+* Os dois pipes (`||`) significam **disjunção** ou **ou**.
+
+### Negação (!)
+
+O operador de negação é **unário**, ou seja, ele só possui um único operando.
+
+```javascript
+!true --> false
+!false -- true
+```
+
+### Conjunção (&&)
+
+O operador de conjunção é **binário**, isto é, ele aceita dois operadores lógicos, um de cada lado.
+
+```javascript
+true && true --> true
+true && false --> false
+false && true --> false
+false && false --> false
+```
+
+### Disjunção (||)
+
+O operador de disjunção, assim como o de conjunção, também é **binário**.
+
+```javascript
+true || true --> true
+true || false --> true
+false || true --> true
+false || false -- false
+```
+
+Exemplos:
+
+```javascript
+var a = 5
+var b = 8
+a > b && b % 2 == 0
+false
+```
+
+O exemplo retorna *false* porque primeiro são feitos os **operadores aritméticos**, depois os **operadores relacionais** e depois os **operadores lógicos**:
+
+* `b % 2 == 0` é `true`
+* `a > b` é `false`
+* então `false && true` retorna `false`
+
+```javascript
+var a =  5
+var b = 8
+a <= b || b / 2 == 2
+true
+```
+
+* `b / 2 == 2` retorna `false`
+* `a <= b` retorna `true`
+* então `true` || `false` retorna `true`
+
+```javascript
+idade >= 15 && idade <= 17 // idade está entre 15 e 17?
+estado == "RJ" || estado == "SP" // o estado é RJ ou SP?
+salario > 1500 && sexo != "M" // o salário é acima de R$ 1.500,00 e não é homem?
+```
+
+**Importante**: se numa mesma expressão houver vários operadores lógicos, primeiro é computada a **negação**, depois a **conjunção** e depois a **disjunção**.
+
+## Operador Ternário
