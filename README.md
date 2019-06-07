@@ -215,17 +215,14 @@ Um detalhe interessante é que o JS considera `null` um objeto.
 * Esta aula fala principalmente sobre os tipos **number** e **string**.
 
 * Para printar no `alert()` uma variável juntamente com uma string, basta concatená-las usando o operador `+`:
-
-  ```javascript
-  var nome = window.prompt("Qual é o seu nome?")
-  ```
-
-Ou, como eu gosto de fazer, você pode usar um recurso chamado *string interpolation* (Interpolação de string):
-
-  ```javascript
+```javascript
+var nome = window.prompt("Qual é o seu nome?")
+```
+Ou -- como eu gosto de fazer -- você pode usar um recurso chamado *string interpolation* (Interpolação de string):
+```javascript
 window.alert("É um grande prazer te conhecer, " + nome)
 window.alert(`É um grande prazer te conhecer, ${nome}.`)
-  ```
+```
 
 ## Conversão de string para Number
 
@@ -253,7 +250,47 @@ Como o operador `+` serve tanto para soma quanto para concatenação, você prec
   
 * `n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})`:
 * --> R$ 1,545.50
-  
 
-# Aula 7:
+# Aula 7: Operadores (Parte 1/2)
+
+Os operadores que veremos no curso serão os operadores: **aritméticos**, de **atribuição**, **relacionais**, **lógicos ** e **ternário**.
+
+* Nesta aula, focaremos nos operadores **aritméticos** e nos operadores de **atribuição**.
+
+## Aritméticos:
+
+* `+`: soma/concatenação
+* `-`: subtração
+* `*`: multiplicação 
+* `/`: divisão real
+* `%`: módulo/resto
+* `**`: potenciação
+
+* de Atribuição:
+  * `var a = (5 + 3)`
+* **Lembrete**: um cuidado com o  qual sempre devemos tomar é com a precedência dos operadores ([PEMDAS](https://pt.khanacademy.org/math/pre-algebra/pre-algebra-arith-prop/pre-algebra-order-of-operations/v/more-complicated-order-of-operations-example)):
+  * Ordem de precedência na programação: Parênteses **>** Potência **>** Multiplicação, Divisão, Módulo **>** Adição, Subtração
+
+## Há também as **autoatribuições**:
+
+```javascript
+var n = 3
+n = n + 4
+n = n - 5
+n = n * 4
+n = n / 2
+n = n ** 2
+n = n % 5
+```
+
+###  Simplificando as autoatribuições em JavaScript:
+
+```javascript
+var n = 3
+n += 4
+n -= 5
+n *= 4
+n /= 2
+n %= 5
+```
 
