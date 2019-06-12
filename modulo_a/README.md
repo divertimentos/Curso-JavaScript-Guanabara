@@ -1,4 +1,4 @@
-# Módulo A: Conhecendo o JavaScript
+# Módulo A: Conhecendo o JavaScript (Aulas 1-4)
 
 ## Tópicos do Módulo A:
 
