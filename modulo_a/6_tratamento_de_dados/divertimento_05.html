@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Document Object Model</title>
     <style>
         body {
             background: cornflowerblue;
@@ -17,10 +17,25 @@
     <h1>Iniciando Estudos de DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
-    <div>Clique em mim</div>
+    <div id="msg">Clique em mim</div>
     <script>
-        var p1 = window.document.getElementsByTagName("p")[0]
-        window.document.write(`Está escrito assim: ${p1.innerText}. `)
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName("p")[1]
+        // window.document.write(`Está escrito assim: ${p1.innerText}. `)
+        // p1.style.color = "grey";
+        // corpo.style.background = "black"
+        // document.write(p1.innerHTML)
+
+        /* 
+        var d = window.document.getElementById("msg")
+        d.style.background = "green"
+        d.innerText = "Estou aguardando..."
+        */
+        // var d = window.document.getElementsByName("msg")[0]
+        // d.innerText = "Olá!"
+
+        var d = window.document.querySelector("div#msg")
+        d.style.color = "green"
     </script>
     
 </body>

@@ -492,7 +492,7 @@ O DOM está estruturado em forma de árvore (tree structure) cujo ramo mais alto
         * `p`
         * `p`
           * `strong`
-        * `div`s
+        * `div`
   * `history`
 
 ## Seleção de elementos
@@ -502,6 +502,10 @@ Nesta aula, veremos 5 métodos de acesso:
 * por Marca (TagName)
   * `getElementsByTagName()`
 * por ID
+  * `getElementById()`
 * por Nome
+  * `getElementsByName()`
 * por Classe
+  * `getElementsByClassName()`
 * por Seletor
+
