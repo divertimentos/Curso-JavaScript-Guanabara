@@ -24,6 +24,9 @@
 
 # Módulo C: Entendendo o DOM
 
+* [Aula 9: Introdução ao DOM](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_c#aula-9-introdu%C3%A7%C3%A3o-ao-dom)
+* [Aula 10: Eventos DOM](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_c#aula-10-eventos-dom)
+
 # Módulo D: Condições em JavaScript
 
 # Módulo E: Repetições em JavaScript
