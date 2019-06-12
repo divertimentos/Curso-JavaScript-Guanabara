@@ -9,7 +9,7 @@
   - Eu sugiro usar a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (VSCode), pois faz a mesma coisa e não requer que você instale uma extensão no seu navegador ou que sequer esteja no Chrome
 
 
-  # Aula 1: O que o JavaScript é capaz de fazer
+# Aula 1: O que o JavaScript é capaz de fazer
 
 - Client x Server
 - Website é composto por basicamente 3 tecnologias:
@@ -521,4 +521,6 @@ Nesta aula, veremos 5 métodos de acesso:
   * `querySelectorAll()`
 
   
+
+# Aula 10: Eventos DOM
 
