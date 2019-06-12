@@ -1,5 +1,13 @@
 # README do curso de fundamentos do JavaScript (Gustavo Guanabara)
 
+# Aula 0: Requisitos
+
+- Um navegador (de preferência, o Chrome, que é o navegador usado pelo Gustavo)
+- Um editor de textos (de preferência, o VSCode, que é o editor usado pelo Gustavo)
+- O Node.js
+- Extensão [Watch in Chrome](https://marketplace.visualstudio.com/items?itemName=sneezry.watch-in-chrome) (VSCode) e [VS Code Watch in Chrome](https://chrome.google.com/webstore/detail/vs-code-watch-in-chrome/mmbnmofkiadlcapnmgnkheoadkpeefii) (Chrome)
+  - Eu sugiro usar a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (VSCode), pois faz a mesma coisa e não requer que você instale uma extensão no seu navegador ou que sequer esteja no Chrome
+
 
   # Aula 1: O que o JavaScript é capaz de fazer
 
@@ -466,3 +474,34 @@ r
 // ADOREI o operador ternário do JS!
 ```
 
+# Aula 9: Introdução ao DOM
+
+DOM é um acrônimo para **Document Object Model**. É um conjunto de objetos que darão acesso aos componentes internos de um website.
+
+O DOM está estruturado em forma de árvore (tree structure) cujo ramo mais alto é o `window`:
+
+* `window`
+  * `location`
+  * `document`
+    * `html`
+      * `head`
+        * `meta`
+        * `title`
+      * `body`
+        * `h1`
+        * `p`
+        * `p`
+          * `strong`
+        * `div`s
+  * `history`
+
+## Seleção de elementos
+
+Nesta aula, veremos 5 métodos de acesso:
+
+* por Marca (TagName)
+  * `getElementsByTagName()`
+* por ID
+* por Nome
+* por Classe
+* por Seletor
