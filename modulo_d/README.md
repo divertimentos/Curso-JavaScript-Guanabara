@@ -36,7 +36,7 @@ if (condição) {
     true
 }
 
-// Condição complexa
+// Condição composta:
 if (condição) {
     true
 } else {
@@ -51,4 +51,18 @@ Em aula transformamos o **[divertimento_08.js](https://github.com/guiemi-learnin
 And there it goes: **[divertimento_11.html](https://github.com/guiemi-learning-center/curso-javascript-guanabara/blob/master/modulo_d/11_Condicoes_Parte_Um/divertimento_11.html)**
 
 # Aula 12: Condições (Parte 2/2)
+
+## Condições aninhadas
+
+```javascript
+if (condiçãoUm) {
+    blocoUm
+} else {
+    if (condiçãoDois) {
+        blocoDois
+    } else {
+        blocoTrês
+    }
+}
+```
 
