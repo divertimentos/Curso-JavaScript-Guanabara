@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício sobre países</title>
+
+    <style>
+        body {
+            font: normal 18px Arial;
+            background: whitesmoke;
+        }
+
+        input {
+            font: normal Arial;
+        }
+
+        div#res {
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Países: conferindo se você é estrangeiro</h1>
+    Em qual país você nasceu? <input type="text" id="birthplace">
+    <input type="button" value="Checar se você é estrangeiro" onclick="checkBirthPlace()">
+    
+    <div id="res"></div>
+    
+    <script>
+
+        function checkBirthPlace(){
+            var countryName = document.querySelector("input#birthplace")
+            var res = document.querySelector("div#res")
+
+            if (countryName.value == "Brasil") {
+                res.innerHTML = "Você é brasileiro!"
+            } else {
+                res.innerHTML = `Você nasceu em um país chamado <strong>${countryName.value}</strong>, logo você é <strong>estrangeiro</strong>!`
+            }
+        }
+    </script>
+</body>
+</html>
