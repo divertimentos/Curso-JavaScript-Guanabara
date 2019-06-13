@@ -7,6 +7,7 @@
 - O Node.js
 - Extensão [Watch in Chrome](https://marketplace.visualstudio.com/items?itemName=sneezry.watch-in-chrome) (VSCode) e [VS Code Watch in Chrome](https://chrome.google.com/webstore/detail/vs-code-watch-in-chrome/mmbnmofkiadlcapnmgnkheoadkpeefii) (Chrome)
   - Eu sugiro usar a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (VSCode), pois faz a mesma coisa e não requer que você instale uma extensão no seu navegador ou que sequer esteja no Chrome
+- Extensão [Node Exec](https://marketplace.visualstudio.com/items?itemName=miramac.vscode-exec-node) (VSCode)
 
 # Módulo A: Conhecento o JavaScript (Aulas 1 - 4)
 
