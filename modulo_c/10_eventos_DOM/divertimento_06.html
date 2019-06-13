@@ -8,7 +8,7 @@
     <style>
         div#area {
             font: normal 15pt Arial;
-            background: seagreen;
+            background: cornflowerblue;
             color: whitesmoke;
             width: 200px;
             height: 200px;
@@ -18,13 +18,30 @@
     </style>
 </head>
 <body>
-    <div id="area"  onclick="clicar()">
+    <div id="area">
         Interaja...
     </div>
 
     <script>
+        var a = window.document.getElementById("area")
+        
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+        
         function clicar() {
-            
+            a.innerText = "Clicado!"
+            a.style.color = "green"
+        }
+
+        function entrar() {
+            a.innerText = "Entrou!"
+            a.style.color = "white"
+        }
+
+        function sair() {
+            a.innerHTML = "Saiu!"
+            a.style.color = "black"
         }
     </script>
 </body>
