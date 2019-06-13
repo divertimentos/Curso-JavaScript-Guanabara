@@ -46,7 +46,9 @@ if (condição) {
 
 ## Divertimentos:
 
-Em aula transformamos o **divertimento_08.js** em um site. Transforme o **divertimento_09.js** em um site.
+Em aula transformamos o **[divertimento_08.js](https://github.com/guiemi-learning-center/curso-javascript-guanabara/blob/master/modulo_d/11_Condicoes_Parte_Um/divertimento_08.js)** em um site. Transforme o **[divertimento_09.js](https://github.com/guiemi-learning-center/curso-javascript-guanabara/blob/master/modulo_d/11_Condicoes_Parte_Um/divertimento_09.js)** em um site.
+
+And there it goes: **[divertimento_11.html](https://github.com/guiemi-learning-center/curso-javascript-guanabara/blob/master/modulo_d/11_Condicoes_Parte_Um/divertimento_11.html)**
 
 # Aula 12: Condições (Parte 2/2)
 
