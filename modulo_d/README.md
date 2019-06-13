@@ -44,3 +44,9 @@ if (condição) {
 }
 ```
 
+## Divertimentos:
+
+Em aula transformamos o **divertimento_08.js** em um site. Transforme o **divertimento_09.js** em um site.
+
+# Aula 12: Condições (Parte 2/2)
+
