@@ -15,7 +15,7 @@ n += 2
 window.alert(n)
 ```
 
-### Condições
+### Condições (if/else)
 
 Já as condições definem caminhos lógicos, distintos, pelos quais a linguagem irá interpretar o código escrito.
 
@@ -52,7 +52,7 @@ And there it goes: **[divertimento_11.html](https://github.com/guiemi-learning-c
 
 # Aula 12: Condições (Parte 2/2)
 
-## Condições aninhadas
+## Condições aninhadas (else if)
 
 ```javascript
 if (condiçãoUm) {
@@ -63,6 +63,19 @@ if (condiçãoUm) {
     } else {
         blocoTrês
     }
+}
+```
+
+## Condições múltiplas (Switch)
+
+Serve para valores fixos.
+
+```javascript
+// Sintaxe do Switch:
+switch (expressão) {
+  case valor1:
+    pass
+    case valor2:
 }
 ```
 
