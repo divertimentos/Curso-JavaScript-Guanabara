@@ -83,7 +83,10 @@ switch(expressão) {
   	//
     break
   default:
-        //
+   	//
 }
 ```
+
+* O Switch só funciona com números inteiros e strings
+* O **break** é imprescindível, senão a lógica do bloco quebra
 
