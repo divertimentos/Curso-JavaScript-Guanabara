@@ -32,7 +32,7 @@
 
 * Aula 11: [Condições (Parte 1/2)](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_d#aula-11-condi%C3%A7%C3%B5es-parte-12)
 * Aula 12: [Condições (Parte 2/2)](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_d#aula-12-condi%C3%A7%C3%B5es-parte-22)
-  * Aula 12: [Exercícios JavaScript (Parte 1/8)](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_d#aula-13-exerc%C3%ADcios-javascript-parte-18)
+  * Aula 12: [Exercícios JavaScript (Parte 1/8)](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_d#aula-12-exerc%C3%ADcios-javascript-parte-18)
 * Exercícios JavaScript (Parte 2/8)
 * Exercícios JavaScript (Parte 3/8)
 
