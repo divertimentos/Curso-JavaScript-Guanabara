@@ -72,10 +72,18 @@ Serve para valores fixos.
 
 ```javascript
 // Sintaxe do Switch:
-switch (expressão) {
+switch(expressão) {
   case valor1:
-    pass
-    case valor2:
+    //
+    break
+  case valor2:
+    //
+    break
+  case valor3:
+  	//
+    break
+  default:
+        //
 }
 ```
 
