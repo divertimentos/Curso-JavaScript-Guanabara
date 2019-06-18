@@ -90,7 +90,7 @@ switch(expressão) {
 * O Switch só funciona com números inteiros e strings
 * O **break** é imprescindível, senão a lógica do bloco quebra
 
-# Exercícios JavaScript (Parte 1/8)
+# Aula 12: Exercícios JavaScript (Parte 1/8)
 
 ![modelo-divertimentos](https://github.com/guiemi-learning-center/curso-javascript-guanabara/blob/master/media/modelo-divertimentos.JPG)
 
