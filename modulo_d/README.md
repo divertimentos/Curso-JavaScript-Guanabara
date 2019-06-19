@@ -94,5 +94,7 @@ switch(expressão) {
 
 ![modelo-divertimentos](https://github.com/guiemi-learning-center/curso-javascript-guanabara/blob/master/media/modelo-divertimentos.JPG)
 
-# Aula 13: Exercícios JavaScript (Parte 2/8)
+# Aula 12: Exercícios JavaScript (Parte 2/8)
+
+![daytime](https://github.com/guiemi-learning-center/curso-javascript-guanabara/blob/master/media/daytime.gif)
 
