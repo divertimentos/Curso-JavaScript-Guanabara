@@ -92,9 +92,13 @@ switch(expressão) {
 
 # Aula 12: Exercícios JavaScript (Parte 1/8)
 
+Nesta aula, nós construímos um modelo de HTML + CSS para orientar a resolução dos próximos exercícios de JS.
+
 ![modelo-divertimentos](https://github.com/guiemi-learning-center/curso-javascript-guanabara/blob/master/media/modelo-divertimentos.JPG)
 
 # Aula 12: Exercícios JavaScript (Parte 2/8)
+
+Neste aula, nós construímos uma página que mostra dinamicamente uma imagem e um background de acordo com o período do dia, tudo isso usando JavaScript.
 
 ![daytime](https://github.com/guiemi-learning-center/curso-javascript-guanabara/blob/master/media/daytime.gif)
 
