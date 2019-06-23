@@ -106,3 +106,4 @@ Nesta aula, nós construímos uma página que mostra dinamicamente uma imagem e 
 
 Nesta aula, nós construímos uma página que mostra dinamicamente a idade e uma foto de acordo com o gênero e o ano de nascimento que o usuário imputa em uma caixa de texto (número) e input radios.
 
+![person-gif](https://github.com/guiemi-learning-center/curso-javascript-guanabara/blob/master/modulo_d/Divertimentos/divertimento_15/gif.gif)
