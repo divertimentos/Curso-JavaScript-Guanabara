@@ -53,3 +53,7 @@ do {
 } while (condição)
 ```
 
+# Aula 14: Repetições (Parte 2)
+
+Nesta aula, veremos a estrutura **for**.
+
