@@ -38,7 +38,7 @@
 
 # Módulo E: Repetições em JavaScript
 
-* Aula 13: Repetições (Parte 1/2)
+* Aula 13: Repetições ([Parte 1/2](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_e#aula-13-repeti%C3%A7%C3%B5es-parte-1))
 * Aula 14: Repetições (Parte 2/2)
 * Exercícios JavaScript (Parte 4/8)
 * Exercícios JavaScript (Parte 5/8)
