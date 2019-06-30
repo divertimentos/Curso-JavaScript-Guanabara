@@ -57,3 +57,12 @@ do {
 
 Nesta aula, veremos a estrutura **for**.
 
+> "Não adianta você tentar chegar no meio da festa e perguntar se tá na hora de cantar parabéns." 
+>
+> (GUANABARA, G., 2019)
+
+> "O Guanabara tem umas frases de efeito nada a ver, mas a gente gosta dele ainda assim." 
+>
+> (TEIXEIRA, G., 2019)
+
+No **for** existem três passos: a **inicialização**, o **teste lógico** e o **incremento**.
