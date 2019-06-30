@@ -66,3 +66,25 @@ Nesta aula, veremos a estrutura **for**.
 > (TEIXEIRA, G., 2019)
 
 No **for** existem três passos: a **inicialização**, o **teste lógico** e o **incremento**.
+
+```javascript
+// Sintaxe do for:
+for (início; teste; incremento) {
+  // Write some code here
+}
+```
+
+```javascript
+// Exemplo de como o while() funciona:
+var c = 1
+while (c <= 10) {
+  // Faz algo
+  c++
+}
+
+// O mesmo código, só que no for:
+for (var c=1; c<=10; c++) {
+  // Faz algo
+}
+```
+
