@@ -69,7 +69,7 @@ No **for** existem três passos: a **inicialização**, o **teste lógico** e o 
 
 ```javascript
 // Sintaxe do for:
-for (início; teste; incremento) {
+for (inicio; teste; incremento) {
   // Write some code here
 }
 ```
