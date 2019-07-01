@@ -13,7 +13,7 @@ function verificar() {
     var res = document.querySelector("div#result")
 
     if(fAno.value.length == 0 || fAno.value > ano) {
-        window.alert("Veriique os dados e tente novamente")
+        window.alert("Verifique os dados e tente novamente")
     } else {
         var fsex = document.getElementsByName("radsex")
         var idade = ano - Number(fAno.value)
