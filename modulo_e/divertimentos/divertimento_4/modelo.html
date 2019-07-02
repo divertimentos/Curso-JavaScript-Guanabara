@@ -4,18 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Modelo de exercício</title>
+    <title>Vamos contar</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Vamos contar</h1>
     </header>
     <section>
         <div>
-            Testando...
+            <p>
+                Início: 
+                <input type="number" name="" id="start">
+            </p>
+
+            <p>
+                Fim:
+                <input type="number" name="" id="end">
+            </p>
+
+            <p>Passo:
+                <input type="number" name="" id="step">
+            </p>
+
+            <p>
+                <input type="button" value="contar" onclick="calcularPasso()">
+            </p>
+
         </div>
-        <div></div>
+        <div id="result">
+            <p>Preparando a contagem...</p>
+        </div>
     </section>
     <footer>
         <p>&copy; Guilherme Teixeira</p>
