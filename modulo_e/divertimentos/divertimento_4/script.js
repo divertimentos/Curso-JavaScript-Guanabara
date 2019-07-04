@@ -17,7 +17,6 @@ function contar() {
             window.alert("Passo inválido. Considerando passo 1")
             p = 1
         }
-
         if (i < f) {
             // Contagem crescente
             for (let c = i; c<= f; c+=p) {
