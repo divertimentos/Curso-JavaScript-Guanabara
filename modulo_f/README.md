@@ -7,3 +7,8 @@
 * Passagem de parâmetros
 * Exercícios propostos
 * Último vídeo: próximos passos
+
+# Aula 15: Variáveis Compostas
+
+Nesta aula, trabalharemos com vetores/arrays.
+
