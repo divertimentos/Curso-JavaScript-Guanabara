@@ -98,3 +98,49 @@ nums.indexOf(7) // A função retornará "3"
 Ele retorna "-1" para valores não encontrados
 ```
 
+# Aula 16: Funções
+
+Como já começamos a ver funções, nesta aula aprofundaremos os conceitos relacionados a ela, tais como parâmetros e retornos.
+
+## Itens que podem estar presentes em uma função:
+
+* uma chamada
+* um conjunto de parâmetros
+* uma ação
+* um retorno
+
+## Definições objetivas de função
+
+* Funções são **ações** executadas assim que são **chamadas** ou em decorrência de algum **evento**.
+* **Funções** podem receber **parâmetros** e retornar um **resultado**.
+
+## Definição formal de função
+
+```javascript
+//definição de função:
+function ação(parâmetro) {
+  // write some code here!
+  return result
+}
+
+//chamada de função:
+ação(5)
+```
+
+## Função que retorna se um número é par ou ímpar
+
+```javascript
+function parImp(num) {
+  if(num % 2 == 0) {
+    // É Par
+    return "Par"
+    
+  } else {
+    // É ímpar
+    return "Ímpar"
+  }
+}
+
+let res = parImp(11)
+```
+
