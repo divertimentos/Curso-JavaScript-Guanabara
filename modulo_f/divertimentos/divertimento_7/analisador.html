@@ -12,20 +12,29 @@
         <h1>Analisador de números</h1>
     </header>
     <section>
+        <!-- REGIAO DO INPUT -->
         <div>
-            <label for="input">Número (entre 1 e 100): </label>
-            <input type="number" name="input" id="input">
+            <label for="userInput">Número (entre 1 e 100): </label>
+            <input type="number" name="userInput" id="userInput">
+            
             <button onclick="gatherNumber()" type="submit">Adicionar</button>
         </div>
+
+        <!-- CAIXA COM A LISTA DE ADICIONADOS -->
         <div>
-            <select name="lista" id="lista" size="10">
+            <select name="lista" id="adicionados" size="10">
                 <option> </option>
             </select>
+            
+            <br>
+            <button onclick="showAnalysis()" type="submit">Finalizar</button>
+        </div>
+            
+        <!-- ANÁLISE DOS NÚMEROS -->
+        <div id="result">
+            <p>Aguardando os números...</p>
         </div>
 
-        <div>
-            <button type="submit">Finalizar</button>
-        </div>
     </section>
     <footer>
         <p>&copy; Guilherme Teixeira</p>
