@@ -92,7 +92,7 @@ for(let pos in nums) {
 
 ### Buscando valores dentro de um vetor
 
-```javascrip
+```javascript
 nums.indexOf(7) // A função retornará "3"
 
 Ele retorna "-1" para valores não encontrados
