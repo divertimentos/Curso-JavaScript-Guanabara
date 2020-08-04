@@ -40,22 +40,15 @@ function adicionar() {
     } else {
         window.alert('Valor inválido ou já encontrado na lista')
     }
-
-
-    // let item = document.createElement("option")
-    // item.text = userInput.value    
-    // lista.appendChild(item)
-    // listaNumeros.push(userInput)
 }
 
 function mostrarResultado() {
     console.log('Função mostrarResultado() foi chamada')
+    
+    // valores.map((item) => {
+    //     let li = document.createElement("p") 
+    //     let value = document.createTextNode(item)
+    //     li.appendChild(value)
+    //     res.appendChild(li)
+    // })
 }
-
-// function showAnalysis() {
-// // result.innerHTML += listaNumeros[0].value
-//     let item = document.createElement("p")
-//     item.text = "Ao todo, temos x números cadastrados"
-//     result.appendChild(item)
-//     result.innerHTML = item.value
-// }
