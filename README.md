@@ -1,5 +1,7 @@
 # README do curso de fundamentos do JavaScript (Gustavo Guanabara)
 
+![Screenshot_2020-08-04 Próximos Passos - Curso JavaScript #17 - YouTube](https://user-images.githubusercontent.com/24235344/89306581-71970980-d646-11ea-808e-fe0f3141638d.png)
+
 # Requisitos
 
 - Um navegador (de preferência, o Chrome, que é o navegador usado pelo Gustavo)
@@ -9,7 +11,7 @@
   - Eu sugiro usar a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (VSCode), pois faz a mesma coisa e não requer que você instale uma extensão no seu navegador ou que sequer esteja no Chrome
 - Extensão [Node Exec](https://marketplace.visualstudio.com/items?itemName=miramac.vscode-exec-node) (VSCode)
 
-# Módulo A: Conhecento o JavaScript (Aulas 1 - 4)
+# Módulo A: Conhecento o JavaScript
 
 - Aula 1: [O que o JavaScript é capaz de fazer](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_a#aula-1-o-que-o-javascript-%C3%A9-capaz-de-fazer)
 - Aula 2: [Como chegamos até aqui](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_a#aula-2-como-chegamos-at%C3%A9-aqui)
@@ -45,8 +47,8 @@
 
 # Módulo F: Avançando os estudos em JavaScript
 
-* Aula 15: Variáveis compostas
-* Aula 16: Funções
+* Aula 15: [Variáveis compostas](https://github.com/guiemi-learning-center/Curso-JavaScript-Guanabara/tree/master/modulo_f#aula-15-vari%C3%A1veis-compostas)
+* Aula 16: [Funções](https://github.com/guiemi-learning-center/Curso-JavaScript-Guanabara/tree/master/modulo_f#aula-16-fun%C3%A7%C3%B5es)
 * Exercícios JavaScript ([Parte 7/7](https://github.com/guiemi-learning-center/Curso-JavaScript-Guanabara/blob/master/modulo_f/divertimentos/divertimento_7/analisador.html)): analisador
 * Aula 17: Próximos passos
 
