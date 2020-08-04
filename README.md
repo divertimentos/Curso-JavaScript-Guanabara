@@ -32,24 +32,22 @@
 
 * Aula 11: [Condições (Parte 1/2)](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_d#aula-11-condi%C3%A7%C3%B5es-parte-12)
 * Aula 12: [Condições (Parte 2/2)](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_d#aula-12-condi%C3%A7%C3%B5es-parte-22)
-* Exercícios JavaScript ([Parte 1/8](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_d#aula-12-exerc%C3%ADcios-javascript-parte-18)): modelo
-* Exercícios JavaScript ([Parte 2/8](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_d#exerc%C3%ADcios-javascript-parte-18)
-* Exercícios JavaScript ([Parte 3/8](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_d#exerc%C3%ADcios-javascript-parte-38))
+* Exercícios JavaScript ([Parte 1/7](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_d#aula-12-exerc%C3%ADcios-javascript-parte-18)): modelo
+* Exercícios JavaScript ([Parte 2/7](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_d#exerc%C3%ADcios-javascript-parte-18)
+* Exercícios JavaScript ([Parte 3/7](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_d#exerc%C3%ADcios-javascript-parte-38))
 
 # Módulo E: Repetições em JavaScript
 
 * Aula 13: Repetições ([Parte 1/2](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_e#aula-13-repeti%C3%A7%C3%B5es-parte-1))
 * Aula 14: Repetições ([Parte 2/2](https://github.com/guiemi-learning-center/curso-javascript-guanabara/tree/master/modulo_e#aula-14-repeti%C3%A7%C3%B5es-parte-2))
-* Exercícios JavaScript (Parte 4/8)
-* Exercícios JavaScript (Parte 5/8)
-* Exercícios JavaScript (Parte 6/8)
+* Exercícios JavaScript ([Parte 4/7](https://github.com/guiemi-learning-center/Curso-JavaScript-Guanabara/blob/master/modulo_e/divertimentos/divertimento_5/vamos_contar.html)): vamos contar
+* Exercícios JavaScript ([Parte 5/7](https://github.com/guiemi-learning-center/Curso-JavaScript-Guanabara/blob/master/modulo_e/divertimentos/divertimento_6/tabuada.html)): tabuada
 
 # Módulo F: Avançando os estudos em JavaScript
 
 * Aula 15: Variáveis compostas
 * Aula 16: Funções
-* Exercícios JavaScript (Parte 7/8)
-* Exercícios JavaScript (Parte 8/8)
+* Exercícios JavaScript ([Parte 7/7](https://github.com/guiemi-learning-center/Curso-JavaScript-Guanabara/blob/master/modulo_f/divertimentos/divertimento_7/analisador.html)): analisador
 * Aula 17: Próximos passos
 
 
