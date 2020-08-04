@@ -50,7 +50,7 @@
 * Aula 15: [Variáveis compostas](https://github.com/guiemi-learning-center/Curso-JavaScript-Guanabara/tree/master/modulo_f#aula-15-vari%C3%A1veis-compostas)
 * Aula 16: [Funções](https://github.com/guiemi-learning-center/Curso-JavaScript-Guanabara/tree/master/modulo_f#aula-16-fun%C3%A7%C3%B5es)
 * Exercícios JavaScript ([Parte 7/7](https://github.com/guiemi-learning-center/Curso-JavaScript-Guanabara/blob/master/modulo_f/divertimentos/divertimento_7/analisador.html)): analisador
-* Aula 17: Próximos passos
+* Aula 17: [Próximos passos](https://github.com/guiemi-learning-center/Curso-JavaScript-Guanabara/blob/master/modulo_f/17_proximos_passos/proximos_passos.md)
 
 
 
