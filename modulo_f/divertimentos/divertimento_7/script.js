@@ -8,7 +8,7 @@
 let num = document.querySelector('input#fnum')
 let lista = document.querySelector('select#flista')
 let res = document.querySelector('div#res')
-let valores = []
+let valores = [1, 2, 3, 4, 5, 5, 5]
 
 function isNumero(n) {
     if (Number(n) >= 1 && Number(n) <= 100) {
@@ -42,13 +42,30 @@ function adicionar() {
     }
 }
 
-function mostrarResultado() {
-    console.log('Função mostrarResultado() foi chamada')
+function gerarResultado() {
+    console.log("Função gerarResultado chamada")
+    const numerosCadastrados = valores.length
+    const maiorValor = valores.reduce((x, y) => {
+        return Math.max(x, y)
+    }) 
+    const menorValor = valores.reduce((x, y) => {
+        return Math.min(x, y)
+    }) 
+
+    const somatoria = valores.reduce((x, y) => {
+        return x + y 
+    })
+
+    const media = (somatoria / numerosCadastrados)
+
+    console.log(`Tamanho da lista: ${numerosCadastrados} números`)
+    console.log(`Maior valor: ${maiorValor}`)
+    console.log(`Menos valor: ${menorValor}`)
+    console.log(`Somatória: ${somatoria}`)
+    console.log(`Média: ${media}`)
+
+}
+
+function mostrarResultado(gerarResultado) {
     
-    // valores.map((item) => {
-    //     let li = document.createElement("p") 
-    //     let value = document.createTextNode(item)
-    //     li.appendChild(value)
-    //     res.appendChild(li)
-    // })
 }
